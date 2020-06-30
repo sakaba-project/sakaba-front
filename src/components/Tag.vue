@@ -1,6 +1,5 @@
 <template>
   <div class="tag">
-    <h1>Hotタグ</h1>
     <a href="#" class="btn-icon"><p class="tag-name"># {{ tagName }}</p></a>
   </div>
 </template>
@@ -22,22 +21,19 @@ export default {
   color: #7DC097;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 50%;
-  border-color: #A7A7A7;
+  border-radius: 3em;
+  border: solid 1px #A7A7A7;
   position: relative;
   margin: 2px 4px;
-  border: solid 2px #A7A7A7;
 }
 
 .tag-name {
-  font-size: 16px;
-  padding: 8px 8px 8px 8px;
+  font-size: 0.5em;
+  padding: 0.5em;
 }
 
 .btn-icon:before {
-  font-family: "FontAwesome";
   position: absolute;
-
 }
 
 .btn-icon:hover {
