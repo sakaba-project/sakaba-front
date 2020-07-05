@@ -7,6 +7,7 @@
 
 <script>
 import Header from './components/Header'
+import 'normalize.css'
 
 export default {
   components: {
@@ -14,15 +15,3 @@ export default {
   }
 }
 </script>
-
-<style>
-    h1 {
-    font-size: 1.5em;
-    margin-block-start: 0.4em;
-    margin-block-end: 0.4em;
-    }
-
-    body {
-    margin: 0;
-    }
-</style>
