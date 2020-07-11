@@ -1,6 +1,6 @@
 <template>
   <div class="tag">
-    <a href="#" class="btn-icon"><p class="tag-name"># {{ tagName }}</p></a>
+    <a href="#" class="btn-icon"><p class="tag-name">#{{ tagName }}</p></a>
   </div>
 </template>
 
@@ -29,7 +29,8 @@ export default {
 
 .tag-name {
   font-size: 0.5em;
-  padding: 0.5em;
+  padding: 1em;
+  margin: 0;
 }
 
 .btn-icon:before {
